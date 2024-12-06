@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "target": "ES6",
+    "baseUrl": "./",
+    "paths": {
+      "sweetalert2": ["node_modules/sweetalert2/dist/sweetalert2.js"],
+      "react-router-dom": ["node_modules/react-router-dom"],
+      "framer-motion": ["node_modules/framer-motion/dist/framer-motion"],
+      "axios": ["node_modules/axios/index"],
+      "date-fns": ["node_modules/date-fns/index"], // Added this line
+      "react-hot-toast": ["node_modules/react-hot-toast/dist/index.js"] // Added this line
+    }
+  },
+  "include": ["src/**/*"]
+}
